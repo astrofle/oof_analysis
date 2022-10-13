@@ -1,15 +1,10 @@
-Module to mine AutoOOF results and M&C sampler data [1].
+# oof_au
+
+A module to mine AutoOOF results, M&C sampler data and put it together.
 This is part of the High Frequency Task Force efforts to characterize the surface error during different observing conditions, as well as improve the Gravity-Zernike model.
 
-Sub-modules:
-   * mineOOFResults.py : Searches for projects that used AutoOOF.
-   * SamplerData.py : Talks with the M&C sampler data.
-   * ScanLog.py : Extracts times from the scan logs.
+## Examples
+There are examples in notebooks
 
-There's an exmaple in notebooks/mine_OOF_n_temperature.ipynb
-and a python environment psalas_venv with the required dependencies.
-To use do (in bash):
-   source psalas_venv/bin/activate
-
-
-[1]: Paul knows the proper name of the weather stations and others from the M&C perspective
+## AutoOOF Table
+The script used to generate the [AutoOOF table](https://safe.nrao.edu/wiki/bin/view/Main/ArchivalAutoOOFTable) is in `notebooks/batch/batch_process_Argus_peak_scans_after_OOF.ipynb`
