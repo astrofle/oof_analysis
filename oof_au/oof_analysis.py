@@ -33,8 +33,8 @@ class OOFAnalysis():
         """
         """
 
-        if np.isnan(ta):
-            return {"rms": np.nan, "tau0": np.nan}
+        #if np.isnan(ta):
+        #    return {"rms": np.nan, "tau0": np.nan}
 
         # Open the scan log and retrieve the date and paths to the GO and Antenna fits files.
         sl = scan_log.ScanLog(self.path, self.projid)
